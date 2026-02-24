@@ -280,7 +280,7 @@ h5 {
 
 .about-row {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1fr;
   justify-content: center;
   gap: 90px;
   margin-bottom: 80px;
