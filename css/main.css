@@ -333,6 +333,11 @@ h5 {
   margin-top: 40px;
 }
 
+.about-content{
+  max-width: 720px;   /* adjust 600–900 */
+  margin: 0 auto;     /* centers the block */
+}
+
 .services-row {
   display: flex;
   flex-wrap: wrap;
