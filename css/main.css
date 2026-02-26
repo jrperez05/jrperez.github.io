@@ -383,16 +383,18 @@ h5 {
 }
 
 .projects-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 tiles per row */
+  gap: 20px;
+  justify-items: stretch;
 }
 
 .project-box {
   position: relative;
   overflow: hidden;
   display: block;
-  max-width: 510px;
+  width: 100%;
+  max-width: none;
 }
 
 .project-box a {
