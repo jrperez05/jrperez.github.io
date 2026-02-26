@@ -385,7 +385,7 @@ h5 {
 .projects-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 tiles per row */
-  gap: 20px;
+  gap: none;
   justify-items: stretch;
 }
 
