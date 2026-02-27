@@ -382,23 +382,23 @@ h5 {
   text-align: center;
 }
 
-.projects-row {
+.projects-row{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 tiles per row */
-  gap: none;
-  justify-items: stretch;
+  grid-template-columns: repeat(3, 360px);  /* <-- tile width */
+  justify-content: center;                 /* centers the grid */
+  gap: 0;                                  /* no gaps between tiles */
 }
 
 .project-box {
-  position: relative;
-  overflow: hidden;
-  display: block;
-  width: 100%;
-  max-width: none;
+  width: 360px;     /* same as column width */
+  height: 240px;    /* <-- tile height (pick what you like) */
+  overflow: hidden; /* crops anything outside box */
 }
 
 .project-box a {
-  display: inline-block;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .project-box:hover .project-mask {
@@ -418,12 +418,10 @@ h5 {
 }
 
 .project-img {
-  transform: scale(1);
   width: 100%;
-  height: 245px;           /* pick a height you like */
-  object-fit: cover;       /* crops to fill */
-  object-position: center; /* keeps crop centered */
-  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  height: 100%;
+  object-fit: cover;        /* crops to fill */
+  object-position: center;  /* crops evenly around center */
   display: block;
 }
 
