@@ -382,13 +382,13 @@ h5 {
 
 .projects-row{
   display: grid;
-  grid-template-columns: repeat(3, 360px);  /* <-- tile width */
+  grid-template-columns: repeat(3, 370px);  /* <-- tile width */
   justify-content: center;                 /* centers the grid */
   gap: 0;                                  /* no gaps between tiles */
 }
 
 .project-box {
-  width: 360px;     /* same as column width */
+  width: 370px;     /* same as column width */
   height: 240px;    /* <-- tile height (pick what you like) */
   overflow: hidden; /* crops anything outside box */
 }
