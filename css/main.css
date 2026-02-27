@@ -233,18 +233,14 @@ h5 {
 }
 
 .hero-img {
-  display: flex;
-  flex: 1 1 356px;
-  justify-content: flex-end;
-  margin-top: auto;
+  max-width: 420px;  /* adjust */
 }
 
 .hero-img img {
-  display: block;
-  position: relative;
-  width: 330px;
+  width: 100%;
   height: auto;
 }
+
 
 .about-social-list {
   display: flex;
