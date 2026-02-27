@@ -242,6 +242,8 @@ h5 {
 .hero-img img {
   display: block;
   position: relative;
+  width: 360px;
+  height: auto;
 }
 
 .about-social-list {
